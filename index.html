@@ -10,12 +10,76 @@ and open the template in the editor.
         <meta charset="windows-1252">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
         <script src="js/bootstrap.js"></script>
-        <header class="container">
-            <h1>Hey! I'm Anooj.</h1>
-        </header>
+        <div id="jumbo" class="container jumbotron col-md-8">
+            <div class="row">
+                <div class="col-md-2">
+                    <img id="me" class="img-fluid float-left" src="images/me.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-4">Hey! I'm <a class="font-weight-bold">Anooj</a>.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-8">
+            <h3 id="bio">Bio</h3>
+            <p>
+                Welcome to my website! My name is Anooj Lal and I'm from Belle Mead, New Jersey. I'm very passionate about programming and I'm always eager to explore new and exciting ways to put my skills to the test.
+            </p>
+            <p>
+                I was exposed to programming for the very first time as a strange, little kid. I had this really weird obsession with frogs and decided that the best way to announce this to the world was to self-learn HTML and launch a website dedicated to the beady-eyed amphibian. Those were dark times, but humble beginnings — my frog-filled website would be the first of many projects I would develop as a young and motivated coder.
+            </p>
+            <p>
+                Studying Computer Science & Linguistics at the University of Illinois at Urbana-Champaign, I hope to gain the experience necessary to pursue internships and eventually a career in software engineering. 
+            </p>
+            <br>
+            <h3 id="skills">Skills</h3>
+            <div class="row">
+            <div class="card col-md-3">
+                <img class="card-img-top hidden-sm-down" src="images/java.png">
+                <div class="card-body">
+                    <h4 class="card-title">Java</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">4+ Years</h6>
+                    <p class="card-text">From <abbr title="AP Computer Science">APCS</abbr> in high school to <abbr title="Introduction to Computer Science">CS 125</abbr> as a college freshman, Java has proven to be the programming language that I'm most comfortable with.</p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img class="card-img-top hidden-sm-down" src="images/android.png">
+                <div class="card-body">
+                    <h4 class="card-title">Android</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">2+ Years</h6>
+                    <p class="card-text">Having learned Java in high school, I decided to pick up Android as a hobby. I hope to further advance my mobile development skills next semester in <abbr title="Software Design Studio">CS 126</abbr>.</p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img class="card-img-top hidden-sm-down" src="images/web.png">
+                <div class="card-body">
+                    <h4 class="card-title">Web</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">2+ Years</h6>
+                    <p class="card-text">I mentioned my first experience with HTML above in my <a class="font-weight-bold" href="#bio">Bio</a>, but I've also picked up JavaScript for a <abbr title="Freshman Honors">CS 196</abbr> project. I also used Bootstrap to make this website.</p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img class="card-img-top hidden-sm-down" src="images/python.png">
+                <div class="card-body">
+                    <h4 class="card-title">Python</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">1+ Years</h6>
+                    <p class="card-text">This year in <abbr title="Freshman Honors">CS 196</abbr>, I've learned to approach a variety of different coding challenges using Python. I enjoy the language's simplicity and readability.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><a  href="https://www.linkedin.com/in/anoojlal/" target="_blank"><img src="images/linkedin.png"></a></li>
+                <li><a  href="https://github.com/anoojlal" target="_blank"><img src="images/github.png"></a></li>
+            </ul>
+        </footer>
     </body>
 </html>
